@@ -1,0 +1,1 @@
+cmd_/home/pi/Documents/raspberryPi/Modules/Hello.ko := ld -EL -r  -T ./scripts/module-common.lds --build-id  -o /home/pi/Documents/raspberryPi/Modules/Hello.ko /home/pi/Documents/raspberryPi/Modules/Hello.o /home/pi/Documents/raspberryPi/Modules/Hello.mod.o ;  true
