@@ -1,0 +1,1 @@
+cmd_/home/pi/Documents/raspberryPi/USB_module/stick_driver.ko := ld -EL -r  -T ./scripts/module-common.lds --build-id  -o /home/pi/Documents/raspberryPi/USB_module/stick_driver.ko /home/pi/Documents/raspberryPi/USB_module/stick_driver.o /home/pi/Documents/raspberryPi/USB_module/stick_driver.mod.o ;  true
