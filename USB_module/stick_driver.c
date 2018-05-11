@@ -21,7 +21,7 @@ static struct usb_device_id pen_table[]={
 	// use "lsusb" command to check up
 	// use "lsusb -v" for detail
 	// idVendor , idProduct
-	{ USB_DEVICE(0x0781, 0x5406)},
+	{ USB_DEVICE(0x2008, 0x2009)},
 	{}	/* Terminating entry*/
 };
 MODULE_DEVICE_TABLE (usb, pen_table);
